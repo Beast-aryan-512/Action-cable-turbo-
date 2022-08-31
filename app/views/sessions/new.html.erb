@@ -1,0 +1,7 @@
+<fieldset align = 'center'>
+  <%= form_for (:session) do |f| %>
+  <%= f.label :username, 'Enter your username' %><br>
+  <%= f.text_field :username, autocomplete: 'off' %><br><br>
+  <%= f.submit 'Sign in' %>
+  <% end %>
+</fieldset>
